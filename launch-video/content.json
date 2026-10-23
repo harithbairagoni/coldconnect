@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "title": "ColdConnect — Make every introduction count",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "voiceover": {
+      "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+      "modelId": "eleven_v3",
+      "stability": 0.5,
+      "similarityBoost": 0.7,
+      "style": 0.35,
+      "useSpeakerBoost": true,
+      "outputFormat": "mp3_44100_128"
+    },
+    "music": {
+      "prompt": "Energetic, fun and uplifting tech startup promotional background track with bright plucks, bouncy synth bass, driving claps and a positive modern pop groove, around 120 BPM",
+      "durationSeconds": 26,
+      "volume": 0.2
+    }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "vo": "Your network is full of amazing people. Waiting to hear from you.",
+      "leadInFrames": 8,
+      "holdAfterFrames": 10,
+      "visual": {
+        "kicker": "THE COLD CALL IS DEAD",
+        "heading": ["Your network is full of", "amazing people."],
+        "accent": "b0f0d6",
+        "sub": "Waiting to hear from you.",
+        "cards": [
+          { "name": "Maya Chen", "role": "Head of PM", "org": "Vercel" },
+          { "name": "Darius Cole", "role": "Founder", "org": "Northbeam" },
+          { "name": "Priya Sharma", "role": "VP Eng", "org": "Notion" }
+        ]
+      }
+    },
+    {
+      "id": "pain",
+      "vo": "But going in cold? Great connections slip away.",
+      "leadInFrames": 6,
+      "holdAfterFrames": 12,
+      "visual": {
+        "heading": ["Going in cold?"],
+        "accent": "fed65b",
+        "bubble": "Hi! Love what you're building — coffee sometime?",
+        "ghostChips": ["No reply…", "Wrong ask.", "Forgotten."]
+      }
+    },
+    {
+      "id": "meet",
+      "vo": "Meet ColdConnect. The AI prep partner that makes you unforgettable, before you even say hello.",
+      "leadInFrames": 8,
+      "holdAfterFrames": 14,
+      "visual": {
+        "kicker": "MEET COLDCONNECT",
+        "heading": ["Make every", "introduction count."],
+        "accent": "b0f0d6",
+        "chips": ["AI research", "Conversation game plan", "Pitch coach", "Follow-ups on autopilot"]
+      }
+    },
+    {
+      "id": "research",
+      "vo": "Research anyone in seconds. Then get a game plan built around them.",
+      "leadInFrames": 6,
+      "holdAfterFrames": 12,
+      "visual": {
+        "kicker": "STEP 1 — KNOW THEM",
+        "heading": ["Walk in knowing", "their world."],
+        "accent": "fed65b",
+        "query": "Priya Sharma — what is she working on?",
+        "results": ["Leading AI infra migration at Notion", "Just spoke at Config 2026", "Posting about vector search weekly"]
+      }
+    },
+    {
+      "id": "practice",
+      "vo": "Practice your pitch, get scored like a coach, and walk in confident.",
+      "leadInFrames": 6,
+      "holdAfterFrames": 12,
+      "visual": {
+        "kicker": "STEP 2 — REHEARSE",
+        "heading": ["Your pitch,", "coach-scored."],
+        "accent": "b0f0d6",
+        "score": "8.7",
+        "scoreLabel": "Personalization",
+        "bars": ["Clarity 9.2", "Energy 8.1", "Personalization 8.7"]
+      }
+    },
+    {
+      "id": "warm",
+      "vo": "Then stay in touch. So a great conversation never goes cold.",
+      "leadInFrames": 6,
+      "holdAfterFrames": 12,
+      "visual": {
+        "kicker": "STEP 3 — STAY CLOSE",
+        "heading": ["Never let a good", "connection go cold."],
+        "accent": "fed65b",
+        "cardName": "Maya Chen",
+        "cardMeta": "12 days since last touch",
+        "cardCta": "Draft follow-up →"
+      }
+    },
+    {
+      "id": "cta",
+      "vo": "Stop going cold. Start connecting.",
+      "leadInFrames": 8,
+      "holdAfterFrames": 30,
+      "visual": {
+        "heading": ["Stop going cold.", "Start connecting."],
+        "accent": "b0f0d6",
+        "tagline": "Make every introduction count.",
+        "url": "coldconnect.app"
+      }
+    }
+  ]
+}

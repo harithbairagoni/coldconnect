@@ -1,0 +1,6 @@
+{
+  "name": "ColdConnect",
+  "description": "ColdConnect - Networking preparation application for MBA students and young professionals.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

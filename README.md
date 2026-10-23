@@ -1,0 +1,40 @@
+# My Favorite Finds
+
+Build this app using the HTML files referenced below. You can hotlink the images referenced in the HTML. The attached images are screenshots of the desired screens. Here are public links to the html of the screens which you should read and use to build the app:
+
+1. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1OGEwNDljYzVkMmQwMWVlNjg2YzcyMGNlYjIxEgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+2. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1OGEwNDlkOTIzYzQwMWVlNjg2YzcyMGNlYjIxEgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+3. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1OGEwNDk4NDdlODcwMWE2MTEwMGFiMzU4MmUzEgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+4. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1OGEwNGE3NWM1ZjgwMmE5YmQ2YjMwMGQwZDhiEgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+5. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1OGEwNDliZTNlZTQwMWVlNjg2YzcyMGNlYjIxEgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+6. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1OGEwNGE4NGUwMTMwNzA5Mjk4NDVlMTA4ZmE5EgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+7. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1ODlmZmYzN2I1ODEwOTI1ZDNmN2VjMWZhZjhjEgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+8. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1ODlmZmVjM2U4NTAwN2UwMTBkZmU0MThhNmZkEgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+9. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1ODlmZWFhMTk1NmMwMWE2MTEwMGFiMzU4MmUzEgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+10. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1ODlmZTcwMjJlOGEwMWE2MDNlOGQ2MzliMGE5EgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+11. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1ODlmZTM5ZWQ1NzEwOTI1YzQxZWYwMDQ5YTlhEgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+12. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1ODlmZTNjNmRhYjQwMDMwMzU5OTUyMzc4YjU4EgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+13. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1ODlmZGYxZmMzYTkwNzc5OTNkZTRkMDNiMjYxEgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+14. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1ODlmZTE4N2U4MGQwMDMwMzU5OTUyMzc4YjU4EgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+15. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1ODlmZGVjMTI4NzUwMWE2MmM3YTczMmRmOTY0EgsSBxCC6uHTtAoYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjAwOTgyMzgzMDA4MjcwMDk2Mw&filename=&opi=89354086
+
+This project was built with [Lovable](https://lovable.dev).
+
+## Build with Lovable
+
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/88af093e-c07c-47c2-b69f-906d13594061).
+
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```

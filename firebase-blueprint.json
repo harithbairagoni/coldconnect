@@ -1,0 +1,130 @@
+{
+  "entities": {
+    "User": {
+      "path": "users/{userId}",
+      "fields": {
+        "userId": { "type": "string", "description": "Unique Firebase Auth user ID" },
+        "email": { "type": "string", "description": "User email address" },
+        "createdAt": { "type": "string", "description": "Account creation timestamp" },
+        "updatedAt": { "type": "string", "description": "Account update timestamp" }
+      }
+    },
+    "UserProfile": {
+      "path": "users/{userId}/profile/main",
+      "fields": {
+        "fullName": { "type": "string", "description": "Full name" },
+        "headline": { "type": "string", "description": "Professional headline" },
+        "location": { "type": "string", "description": "Location / City" },
+        "photoURL": { "type": "string", "description": "Profile picture URL" },
+        "linkedinURL": { "type": "string", "description": "LinkedIn profile URL" },
+        "instagramHandle": { "type": "string", "description": "Instagram handle" },
+        "email": { "type": "string", "description": "Contact email" },
+        "website": { "type": "string", "description": "Personal website or portfolio" },
+        "about": { "type": "string", "description": "About me bio" },
+        "careerGoals": { "type": "string", "description": "Short and long term career goals" },
+        "networkingGoals": { "type": "string", "description": "Networking goals" },
+        "conversationStyle": { "type": "string", "description": "Preferred conversation style" },
+        "interests": {
+          "type": "array",
+          "description": "List of personal and professional interests"
+        },
+        "skills": { "type": "array", "description": "List of core skills" },
+        "experience": { "type": "array", "description": "List of work experiences" },
+        "education": { "type": "array", "description": "List of education entries" },
+        "profileHighlights": { "type": "array", "description": "Profile key highlights" },
+        "updatedAt": { "type": "string", "description": "Last update timestamp" }
+      }
+    },
+    "Connection": {
+      "path": "users/{userId}/connections/{connectionId}",
+      "fields": {
+        "name": { "type": "string", "description": "Target person full name" },
+        "company": { "type": "string", "description": "Target company" },
+        "role": { "type": "string", "description": "Job title / role" },
+        "linkedinURL": { "type": "string", "description": "LinkedIn URL" },
+        "instagramHandle": { "type": "string", "description": "Instagram handle" },
+        "email": { "type": "string", "description": "Email address" },
+        "profileImage": { "type": "string", "description": "Profile image URL" },
+        "meetingPurpose": { "type": "string", "description": "Purpose of reaching out" },
+        "relationshipStatus": {
+          "type": "string",
+          "description": "Status (new, requested, connected, met, warm, strong)"
+        },
+        "notes": { "type": "string", "description": "Custom user notes" },
+        "interests": { "type": "array", "description": "Shared or key interests" },
+        "lastInteractionAt": { "type": "string", "description": "Timestamp of last interaction" },
+        "nextFollowupAt": { "type": "string", "description": "Timestamp of next follow up" },
+        "createdAt": { "type": "string", "description": "Created timestamp" },
+        "updatedAt": { "type": "string", "description": "Last updated timestamp" }
+      }
+    },
+    "Meeting": {
+      "path": "users/{userId}/meetings/{meetingId}",
+      "fields": {
+        "connectionId": { "type": "string", "description": "Associated connection ID" },
+        "title": { "type": "string", "description": "Meeting title" },
+        "scheduledAt": { "type": "string", "description": "Scheduled date and time" },
+        "location": { "type": "string", "description": "Meeting location or link" },
+        "purpose": { "type": "string", "description": "Meeting purpose" },
+        "notes": { "type": "string", "description": "Meeting notes" },
+        "status": {
+          "type": "string",
+          "description": "Status (upcoming, in_progress, completed, cancelled)"
+        },
+        "preparationScore": { "type": "number", "description": "Prep readiness score" },
+        "preparationItems": { "type": "map", "description": "Checklist of completed prep items" },
+        "createdAt": { "type": "string", "description": "Created timestamp" },
+        "updatedAt": { "type": "string", "description": "Last updated timestamp" }
+      }
+    },
+    "Interaction": {
+      "path": "users/{userId}/interactions/{interactionId}",
+      "fields": {
+        "connectionId": { "type": "string", "description": "Associated connection ID" },
+        "type": { "type": "string", "description": "Type of interaction" },
+        "channel": { "type": "string", "description": "Channel (LinkedIn, Email, Coffee, Phone)" },
+        "notes": { "type": "string", "description": "Interaction summary notes" },
+        "rating": {
+          "type": "string",
+          "description": "How did it go rating (great, good, okay, not_great)"
+        },
+        "occurredAt": { "type": "string", "description": "Occurrence timestamp" },
+        "createdAt": { "type": "string", "description": "Created timestamp" }
+      }
+    },
+    "PitchSession": {
+      "path": "users/{userId}/pitchSessions/{pitchSessionId}",
+      "fields": {
+        "connectionId": { "type": "string", "description": "Associated connection ID" },
+        "audioURL": { "type": "string", "description": "Audio recording URL" },
+        "transcript": { "type": "string", "description": "Pitch transcript text" },
+        "durationSeconds": { "type": "number", "description": "Duration in seconds" },
+        "overallScore": { "type": "number", "description": "Overall score (0-100)" },
+        "clarityScore": { "type": "number", "description": "Clarity score" },
+        "confidenceScore": { "type": "number", "description": "Confidence score" },
+        "storytellingScore": { "type": "number", "description": "Storytelling score" },
+        "concisenessScore": { "type": "number", "description": "Conciseness score" },
+        "relevanceScore": { "type": "number", "description": "Relevance score" },
+        "memorabilityScore": { "type": "number", "description": "Memorability score" },
+        "biggestOpportunity": { "type": "string", "description": "Key improvement opportunity" },
+        "whatWorked": { "type": "string", "description": "Positive feedback" },
+        "whatToImprove": { "type": "string", "description": "Improvement guidance" },
+        "improvedPitch": { "type": "string", "description": "AI polished pitch version" },
+        "conversationBridge": { "type": "string", "description": "Transition to dialogue bridge" },
+        "createdAt": { "type": "string", "description": "Creation timestamp" }
+      }
+    },
+    "Followup": {
+      "path": "users/{userId}/followups/{followupId}",
+      "fields": {
+        "connectionId": { "type": "string", "description": "Associated connection ID" },
+        "channel": { "type": "string", "description": "Channel (LinkedIn, Email, SMS)" },
+        "message": { "type": "string", "description": "Draft follow up message" },
+        "scheduledAt": { "type": "string", "description": "Scheduled date and time" },
+        "status": { "type": "string", "description": "Status (draft, scheduled, sent)" },
+        "sentAt": { "type": "string", "description": "Timestamp when sent" },
+        "createdAt": { "type": "string", "description": "Creation timestamp" }
+      }
+    }
+  }
+}

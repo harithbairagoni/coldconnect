@@ -1,0 +1,206 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+/*
+ * ColdConnect design system.
+ * Material-style token set: deep forest green primary, warm paper surfaces,
+ * amber secondary. Hanken Grotesk for display/headlines, Inter for body.
+ */
+
+@theme {
+  --color-background: #faf9f6;
+  --color-on-background: #1a1c1a;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-inverse-on-surface: #f2f1ee;
+  --color-inverse-primary: #95d3ba;
+  --color-inverse-surface: #2f312f;
+  --color-on-error: #ffffff;
+  --color-on-error-container: #93000a;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #80bea6;
+  --color-on-primary-fixed: #002117;
+  --color-on-primary-fixed-variant: #0b513d;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #745c00;
+  --color-on-secondary-fixed: #241a00;
+  --color-on-secondary-fixed-variant: #574500;
+  --color-on-surface: #1a1c1a;
+  --color-on-surface-variant: #404944;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #b3b2ab;
+  --color-on-tertiary-fixed: #1b1c17;
+  --color-on-tertiary-fixed-variant: #474741;
+  --color-outline: #707974;
+  --color-outline-variant: #bfc9c3;
+  --color-primary: #003527;
+  --color-primary-container: #064e3b;
+  --color-primary-fixed: #b0f0d6;
+  --color-primary-fixed-dim: #95d3ba;
+  --color-secondary: #735c00;
+  --color-secondary-container: #fed65b;
+  --color-secondary-fixed: #ffe088;
+  --color-secondary-fixed-dim: #e9c349;
+  --color-surface: #faf9f6;
+  --color-surface-bright: #faf9f6;
+  --color-surface-container: #efeeeb;
+  --color-surface-container-high: #e9e8e5;
+  --color-surface-container-highest: #e3e2df;
+  --color-surface-container-low: #f4f3f0;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-dim: #dbdad7;
+  --color-surface-tint: #2b6954;
+  --color-surface-variant: #e3e2df;
+  --color-tertiary: #2e2f29;
+  --color-tertiary-container: #45453f;
+  --color-tertiary-fixed: #e4e2db;
+  --color-tertiary-fixed-dim: #c8c7bf;
+
+  /* Radii */
+  --radius: 0.25rem;
+  --radius-sm: 0.125rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+
+  /* Spacing scale */
+  --spacing-unit: 8px;
+  --spacing-gutter: 16px;
+  --spacing-stack-gap: 16px;
+  --spacing-container-padding: 24px;
+  --spacing-section-gap: 40px;
+
+  /* Type families */
+  --font-display: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-headline-lg: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-headline-lg-mobile: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-headline-md: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body-lg: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-body-md: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-label-md: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-caption: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Type scale */
+  --text-display: 40px;
+  --text-display--line-height: 48px;
+  --text-display--letter-spacing: -0.02em;
+  --text-display--font-weight: 700;
+  --text-headline-lg: 32px;
+  --text-headline-lg--line-height: 40px;
+  --text-headline-lg--letter-spacing: -0.01em;
+  --text-headline-lg--font-weight: 600;
+  --text-headline-lg-mobile: 28px;
+  --text-headline-lg-mobile--line-height: 34px;
+  --text-headline-lg-mobile--font-weight: 600;
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 32px;
+  --text-headline-md--font-weight: 600;
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+  --text-body-lg--font-weight: 400;
+  --text-body-md: 16px;
+  --text-body-md--line-height: 24px;
+  --text-body-md--font-weight: 400;
+  --text-label-md: 14px;
+  --text-label-md--line-height: 20px;
+  --text-label-md--letter-spacing: 0.05em;
+  --text-label-md--font-weight: 600;
+  --text-caption: 12px;
+  --text-caption--line-height: 16px;
+  --text-caption--font-weight: 400;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-outline-variant);
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    font-family: var(--font-body-md);
+  }
+}
+
+@layer components {
+  .material-symbols-outlined {
+    font-family: "Material Symbols Outlined";
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    font-variation-settings:
+      "FILL" 0,
+      "wght" 400,
+      "GRAD" 0,
+      "opsz" 24;
+  }
+
+  .card-shadow {
+    box-shadow: 0 4px 20px rgba(6, 78, 59, 0.1);
+  }
+
+  .card-interactive,
+  .interactive-card {
+    transition:
+      transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .card-interactive:active,
+  .interactive-card:active {
+    transform: scale(0.98);
+  }
+
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 16px);
+  }
+
+  .hide-scrollbar {
+    scrollbar-width: none;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .animate-fade-up {
+    opacity: 0;
+    animation: fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  .animate-circle {
+    stroke-dasharray: 282.7;
+    stroke-dashoffset: 282.7;
+    animation: strokeDash 1.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards 0.3s;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes strokeDash {
+  to {
+    stroke-dashoffset: 62.2;
+  }
+}

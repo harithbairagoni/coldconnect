@@ -1,0 +1,84 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "totalFrames": 1024,
+  "durationSeconds": 34.13,
+  "music": {
+    "file": "music/bgm.mp3",
+    "durationMs": 26044,
+    "volume": 0.2
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "file": "vo/hook.mp3",
+      "durationMs": 3866,
+      "leadInFrames": 8,
+      "voFrames": 116,
+      "holdAfterFrames": 10,
+      "frames": 134,
+      "startFrame": 0
+    },
+    {
+      "id": "pain",
+      "file": "vo/pain.mp3",
+      "durationMs": 3004,
+      "leadInFrames": 6,
+      "voFrames": 91,
+      "holdAfterFrames": 12,
+      "frames": 109,
+      "startFrame": 134
+    },
+    {
+      "id": "meet",
+      "file": "vo/meet.mp3",
+      "durationMs": 7158,
+      "leadInFrames": 8,
+      "voFrames": 215,
+      "holdAfterFrames": 14,
+      "frames": 237,
+      "startFrame": 243
+    },
+    {
+      "id": "research",
+      "file": "vo/research.mp3",
+      "durationMs": 4362,
+      "leadInFrames": 6,
+      "voFrames": 131,
+      "holdAfterFrames": 12,
+      "frames": 149,
+      "startFrame": 480
+    },
+    {
+      "id": "practice",
+      "file": "vo/practice.mp3",
+      "durationMs": 4676,
+      "leadInFrames": 6,
+      "voFrames": 141,
+      "holdAfterFrames": 12,
+      "frames": 159,
+      "startFrame": 629
+    },
+    {
+      "id": "warm",
+      "file": "vo/warm.mp3",
+      "durationMs": 3553,
+      "leadInFrames": 6,
+      "voFrames": 107,
+      "holdAfterFrames": 12,
+      "frames": 125,
+      "startFrame": 788
+    },
+    {
+      "id": "cta",
+      "file": "vo/cta.mp3",
+      "durationMs": 2429,
+      "leadInFrames": 8,
+      "voFrames": 73,
+      "holdAfterFrames": 30,
+      "frames": 111,
+      "startFrame": 913
+    }
+  ]
+}
